@@ -1,0 +1,39 @@
+{
+    "name": "campaignchain/location-xing",
+    "description": "Xing module for CampaignChain",
+    "keywords": ["campaignchain"],
+    "type": "campaignchain-location",
+    "license": "Apache-2.0",
+    "homepage": "http://www.campaignchain.com",
+    "authors": [
+        {
+            "name": "CampaignChain, Inc.",
+            "email": "info@campaignchain.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/CampaignChain/campaignchain-ce/issues",
+        "docs": "http://doc.campaignchain.com"
+    },
+    "require": {
+        "campaignchain/channel-linkedin": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "CampaignChain\\Location\\XingBundle\\": "" }
+    },
+    "extra": {
+        "campaignchain": {
+            "kernel": {
+                "classes": [
+                    "CampaignChain\\Location\\XingBundle\\CampaignChainLocationXingBundle"
+                ],
+                "routing":
+                {
+                    "name": "campaignchain_location_xing",
+                    "resource": "@CampaignChainLocationXingBundle/Resources/config/routing.yml",
+                    "prefix": "/"
+                }
+            }
+        }
+    }
+}

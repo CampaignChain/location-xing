@@ -1,0 +1,7 @@
+parameters:
+    # Parameters for the CampaignChain Location modules in this Symfony bundle
+    campaignchain.location.campaignchain.xing:
+        bundle_name: "campaignchain/location-xing"
+        module_identifier: "campaignchain-xing"
+
+services:

@@ -1,0 +1,7 @@
+
+modules:
+    campaignchain-xing:
+        display_name: Xing
+        description: This module connects to a Xing user stream
+        hooks:
+            default:
