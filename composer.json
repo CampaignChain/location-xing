@@ -16,7 +16,7 @@
         "docs": "http://doc.campaignchain.com"
     },
     "require": {
-        "campaignchain/channel-linkedin": "dev-master"
+        "campaignchain/channel-xing": "dev-master"
     },
     "autoload": {
         "psr-4": { "CampaignChain\\Location\\XingBundle\\": "" }
